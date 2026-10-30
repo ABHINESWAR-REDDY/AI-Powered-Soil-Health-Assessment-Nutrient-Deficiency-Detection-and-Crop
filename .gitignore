@@ -1,0 +1,43 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Runtime data
+uploads/
+
+# Generated deep-learning weights (regenerate with ml_training/train_cnn.py)
+models/*.h5
+models/*.keras
+
+# Editor & workspace
+.vscode/
+*.worktrees/
+
+# Data, archives & generated reports
+*.zip
+Soil types/
+reports/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
